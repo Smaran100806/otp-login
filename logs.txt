@@ -1,0 +1,14 @@
+# OTP-Based Secure Login System - Audit Log
+# Format:
+# TIMESTAMP | USERNAME | STATUS | REASON
+# --------------------------------------
+Fri Jan 16 22:50:16 2026 | sam | INFO | OTP_GENERATED
+Fri Jan 16 22:50:30 2026 | sam | SUCCESS | LOGIN_SUCCESS
+Fri Jan 16 23:06:14 2026 | admin | FAIL | BAD_CREDENTIALS
+Fri Jan 16 23:11:12 2026 | sam | SUCCESS | ACCOUNT_CREATED
+Fri Jan 16 23:11:40 2026 | sam | SUCCESS | LOGIN_SUCCESS
+Fri Jan 16 23:11:56 2026 | admin | FAIL | BAD_CREDENTIALS
+Fri Jan 16 23:15:21 2026 | admin | FAIL | BAD_CREDENTIALS
+Fri Jan 16 23:18:42 2026 | admin | SUCCESS | ACCOUNT_CREATED
+Fri Jan 16 23:19:48 2026 | admin | SUCCESS | LOGIN_SUCCESS
+Fri Jan 16 23:28:59 2026 | admin | SUCCESS | LOGIN_SUCCESS
