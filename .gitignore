@@ -2,3 +2,4 @@ auth.exe
 __pycache__/
 logs.txt
 simulated_email.txt
+users.txt
